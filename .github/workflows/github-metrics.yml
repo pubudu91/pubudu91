@@ -67,7 +67,7 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
           base: ""
           plugin_calendar: yes
-          plugin_calendar_limit: 0
+          plugin_calendar_limit: 7
 
   achievements:
     runs-on: ubuntu-latest
