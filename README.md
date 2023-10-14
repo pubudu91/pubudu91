@@ -1,6 +1,7 @@
 ![](./github-metrics.svg)
 ![](./metrics.plugin.habits.facts.svg)
 ![](./metrics.plugin.languages.indepth.svg)
+![](./metrics.plugin.achievements.compact.svg)
 ![](./metrics.plugin.calendar.full.svg)
 
 
