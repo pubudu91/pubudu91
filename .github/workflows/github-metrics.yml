@@ -19,6 +19,8 @@ jobs:
           base_indepth: yes
           base_hireable: yes
           repositories: 300
+          commits_authoring: pubudu91, pubudu.fernando@gmail.com, pubuduf@wso2.com, pubudu.12@cse.mrt.ac.lk
+          repositories_forks: yes
         
   interesting-facts:
     runs-on: ubuntu-latest
@@ -51,7 +53,7 @@ jobs:
             gnuplot
           plugin_languages_indepth: yes
           plugin_languages_details: lines, bytes-size
-          plugin_languages_limit: 4
+          plugin_languages_limit: 20
           plugin_languages_analysis_timeout: 15
 
   full-history-calendar:
@@ -66,5 +68,20 @@ jobs:
           base: ""
           plugin_calendar: yes
           plugin_calendar_limit: 0
-      
-          
+
+  achievements:
+    runs-on: ubuntu-latest
+    permissions:
+        contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.compact.svg
+          token: ${{ secrets.METRICS_SECRET }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
