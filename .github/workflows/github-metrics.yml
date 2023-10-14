@@ -16,7 +16,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_SECRET }}
           user: pubudu91
-          base_indepth: true
-          base_hireable: true
+          base_indepth: yes
+          base_hireable: yes
           repositories: 300
           
