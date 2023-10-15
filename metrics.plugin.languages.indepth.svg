@@ -16,7 +16,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 2.78mb of code in 906 edited files across 272 commits</small>
+                <small>estimation from 2.78mb of code in 907 edited files across 273 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -40,7 +40,7 @@
                             </div>
                             <small>
                                 <div>6.31k lines</div>
-                                <div>203 kB</div>
+                                <div>51.43%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -52,7 +52,7 @@
                             </div>
                             <small>
                                 <div>1.74k lines</div>
-                                <div>69.2 kB</div>
+                                <div>17.53%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -64,7 +64,7 @@
                             </div>
                             <small>
                                 <div>292 lines</div>
-                                <div>7.62 kB</div>
+                                <div>1.93%</div>
                             </small>
                         </div>
                     </section>
@@ -78,7 +78,7 @@
                             </div>
                             <small>
                                 <div>3.58k lines</div>
-                                <div>88 kB</div>
+                                <div>22.31%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -90,7 +90,7 @@
                             </div>
                             <small>
                                 <div>766 lines</div>
-                                <div>22.7 kB</div>
+                                <div>5.77%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -102,7 +102,7 @@
                             </div>
                             <small>
                                 <div>132 lines</div>
-                                <div>4.04 kB</div>
+                                <div>1.02%</div>
                             </small>
                         </div>
                     </section>
