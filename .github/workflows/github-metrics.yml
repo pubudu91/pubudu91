@@ -52,7 +52,7 @@ jobs:
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot
           plugin_languages_indepth: yes
-          plugin_languages_details: lines, bytes-size
+          plugin_languages_details: lines, percentage
           plugin_languages_limit: 20
           plugin_languages_analysis_timeout: 15
 
@@ -85,3 +85,18 @@ jobs:
             scripter, packager, explorer, infographile, manager
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
+
+  notable-contributions:
+    runs-on: ubuntu-latest
+    permissions:
+        contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.notable.indepth.svg
+          token: ${{ secrets.METRICS_SECRET }}
+          base: ""
+          plugin_notable: yes
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes
+
