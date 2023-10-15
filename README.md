@@ -1,11 +1,26 @@
-![](./github-metrics.svg)
-![](./metrics.plugin.habits.facts.svg)
-![](./metrics.plugin.languages.indepth.svg)
-![](./metrics.plugin.achievements.compact.svg)
-![](./metrics.plugin.calendar.full.svg)
-
-
-
+<table>
+  <tr>
+    <td>
+      <img align="center" src="./github-metrics.svg" />
+    </td>
+    <td>
+      <img align="center" src="./metrics.plugin.habits.facts.svg" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img align="center" src="./metrics.plugin.languages.indepth.svg" />
+    </td>
+    <td>
+      <img align="center" src="./metrics.plugin.achievements.compact.svg" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img align="center" src="./metrics.plugin.calendar.full.svg" />
+    </td>
+  </tr>
+</table>
 
 <!--
 **pubudu91/pubudu91** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
