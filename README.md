@@ -4,12 +4,12 @@
       <img align="center" src="./github-metrics.svg" />
     </td>
     <td>
-      <img align="center" src="./metrics.plugin.habits.facts.svg" />
+      <img align="center" src="./metrics.plugin.languages.indepth.svg" />
     </td>
   </tr>
   <tr>
     <td>
-      <img align="center" src="./metrics.plugin.languages.indepth.svg" />
+      <img align="center" src="./metrics.plugin.habits.facts.svg" />
     </td>
     <td>
       <img align="center" src="./metrics.plugin.achievements.compact.svg" />
@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <td>
-      <img align="center" src="./metrics.plugin.calendar.full.svg" />
+      <img align="center" src="./metrics.plugin.notable.indepth.svg" />
     </td>
   </tr>
 </table>
